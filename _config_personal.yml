@@ -4,14 +4,18 @@ title: "Jisung Kim | 김지성"
 first_name: Jisung
 middle_name: ""
 last_name: "Kim"
+title: "Jisung Kim"
+first_name: Jisung
+middle_name: ""
+last_name: Kim
 url: "https://jisay1130.github.io"
 baseurl: "/homepage"
 lang: en
 description: >-
-  Jisay (김지성), an M.S. student in Aerospace Engineering with a background
-  in Atmospheric Science. Research interests include urban wind, turbulence,
-  multiscale CFD, and surrogate modelling.
-keywords: urban wind, atmospheric boundary layer, CFD, LES, WRF, PALM, OpenFOAM, surrogate modelling
+  Jisung Kim works on computational fluid dynamics, turbulent flow modelling,
+  and atmospheric boundary-layer analysis for aerospace and environmental flow
+  problems.
+keywords: Jisung Kim, computational fluid dynamics, turbulent flow modelling, atmospheric boundary layer, aerospace engineering, Python, Fortran, MATLAB
 contact_note: ""
 footer_text: >-
   Built with <a href="https://jekyllrb.com/">Jekyll</a> and

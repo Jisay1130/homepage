@@ -21,6 +21,17 @@ bundle exec al-folio upgrade audit --no-fail
 bundle exec jekyll build --baseurl /al-folio
 ```
 
+## Jisung Kim homepage notes
+
+This repository is a project-page site for Jisung Kim, not the upstream al-folio demo. Keep personal overrides in `_config_personal.yml` and load it after `_config.yml`.
+
+- Local Docker preview: `docker compose up`, then open `http://localhost:8081/homepage/`.
+- Local Ruby preview: `bundle exec jekyll serve --config _config.yml,_config_personal.yml`.
+- Production workflow already builds with `bundle exec jekyll build --config _config.yml,_config_personal.yml`.
+- Public page URL is `https://jisay1130.github.io/homepage/`; keep the GitHub account/repository URL unless the repository is renamed.
+- Personal pages to edit first: `_pages/about.md`, `_pages/research.md`, `_pages/cv.md`.
+- `_config_personal.yml` excludes upstream demo posts, projects, books, teaching pages, and assets from the public site.
+
 ## Routing
 
 - Starter wiring/docs/examples/tests: edit `al-folio`.

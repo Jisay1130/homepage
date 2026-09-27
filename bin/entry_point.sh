@@ -3,7 +3,11 @@ set -euo pipefail
 
 echo "Entry point script running"
 
-CONFIG_FILE=_config.yml
+CONFIG_FILE=${JEKYLL_CONFIG:-_config.yml}
+if [[ -z "${JEKYLL_CONFIG:-}" && -f _config_personal.yml ]]; then
+    CONFIG_FILE=_config.yml,_config_personal.yml
+fi
+WATCH_CONFIG_FILES=${CONFIG_FILE//,/ }
 DOCKER_DESTINATION=/tmp/_site
 
 # Function to manage Gemfile.lock
@@ -40,7 +44,7 @@ start_jekyll() {
 start_jekyll
 
 while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
+    inotifywait -q -e modify,move,create,delete $WATCH_CONFIG_FILES
     if [ $? -eq 0 ]; then
         echo "Change detected to $CONFIG_FILE, restarting Jekyll"
         jekyll_pid=$(pgrep -f jekyll)

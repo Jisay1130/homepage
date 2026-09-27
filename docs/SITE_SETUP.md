@@ -25,6 +25,20 @@ Do not select `main`: it contains Jekyll source, not the generated website. The 
 
 ### Local development
 
+The local preview must load `_config_personal.yml` after `_config.yml`; otherwise the site uses upstream demo defaults and the personal content exclusions are not applied.
+
+Recommended Docker workflow:
+
+```bash
+docker compose up
+```
+
+Open:
+
+```text
+http://localhost:8081/homepage/
+```
+
 With Ruby and Bundler installed:
 
 ```bash
