@@ -1,0 +1,119 @@
+# Personal settings. Loaded AFTER _config.yml by the deploy workflow.
+# Keep the upstream theme defaults in _config.yml; edit this file for this site.
+title: "Jisay | 김지성"
+first_name: Jisay
+middle_name: ""
+last_name: ""
+url: "https://jisay1130.github.io"
+baseurl: "/homepage"
+lang: en
+description: >-
+  Jisay (김지성), an M.S. student in Aerospace Engineering with a background
+  in Atmospheric Science. Research interests include urban wind, turbulence,
+  multiscale CFD, and surrogate modelling.
+keywords: urban wind, atmospheric boundary layer, CFD, LES, WRF, PALM, OpenFOAM, surrogate modelling
+contact_note: ""
+footer_text: >-
+  Built with <a href="https://jekyllrb.com/">Jekyll</a> and
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
+last_updated: false
+footer_fixed: false
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
+enable_navbar_social: false
+enable_darkmode: true
+enable_progressbar: false
+enable_medium_zoom: false
+enable_masonry: false
+serve_og_meta: true
+serve_schema_org: false
+blog_name: Research notes
+blog_description: ""
+external_sources: []
+jekyll_get_json: []
+disqus_shortname: ""
+pagination:
+  enabled: false
+related_blog_posts:
+  enabled: false
+newsletter:
+  enabled: false
+imagemagick:
+  enabled: false
+al_folio:
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: false
+collections:
+  books:
+    output: false
+  news:
+    output: false
+  projects:
+    output: false
+  teachings:
+    output: false
+jekyll-archives:
+  posts:
+    enabled: []
+  books:
+    enabled: []
+scholar:
+  first_name: []
+  last_name: []
+  bibliography: personal.bib
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+# Retain upstream build exclusions and keep demo content out of the public site.
+exclude:
+  - AGENTS.md
+  - al-folio-upgrade-report.md
+  - bin/
+  - CLAUDE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - gems/
+  - migrations/
+  - vendor/
+  - blog/
+  - _posts/
+  - _news/
+  - _projects/
+  - _books/
+  - _teachings/
+  - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/plugins.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - assets/img/
+  - assets/pdf/
+  - assets/json/
+  - assets/rendercv/
+  - assets/jupyter/
+  - assets/html/
