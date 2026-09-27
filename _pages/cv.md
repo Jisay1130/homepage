@@ -21,12 +21,10 @@ Weather-informed urban wind and turbulence modelling; multiscale numerical simul
 
 ## Methods and tools
 
-| Area | Tools and methods |
-| :--- | :--- |
-| Atmospheric and flow modelling | WRF, PALM LES, OpenFOAM |
-| Data-driven modelling | Python, Gaussian process regression, proper orthogonal decomposition |
-| Geometry and geospatial processing | QGIS, Blender |
-| Scientific computing | Linux, HPC environments, MPI parallel computing |
+- **Atmospheric and flow modelling:** WRF, PALM LES, OpenFOAM.
+- **Data-driven modelling:** Python, Gaussian process regression, proper orthogonal decomposition.
+- **Geometry and geospatial processing:** QGIS, Blender.
+- **Scientific computing:** Linux, HPC environments, MPI parallel computing.
 
 ## Research profile
 
