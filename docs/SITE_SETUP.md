@@ -15,13 +15,13 @@ Do not select `main`: it contains Jekyll source, not the generated website. The 
 
 ## Editing the site
 
-| File | Purpose |
-| --- | --- |
-| `_config_personal.yml` | Name, description, URL, enabled features, demo exclusions |
-| `_pages/about.md` | Home page |
-| `_pages/research.md` | Research overview |
-| `_pages/cv.md` | Web CV |
-| `_bibliography/personal.bib` | Verified publications, when ready |
+| File                         | Purpose                                                   |
+| ---------------------------- | --------------------------------------------------------- |
+| `_config_personal.yml`       | Name, description, URL, enabled features, demo exclusions |
+| `_pages/about.md`            | Home page                                                 |
+| `_pages/research.md`         | Research overview                                         |
+| `_pages/cv.md`               | Web CV                                                    |
+| `_bibliography/personal.bib` | Verified publications, when ready                         |
 
 `_config.yml` retains upstream defaults. Always load `_config_personal.yml` after it; the deployment workflow does this automatically.
 
