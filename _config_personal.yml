@@ -1,9 +1,9 @@
 # Personal settings. Loaded AFTER _config.yml by the deploy workflow.
 # Keep the upstream theme defaults in _config.yml; edit this file for this site.
-title: "Jisay | 김지성"
-first_name: Jisay
+title: "Jisung Kim | 김지성"
+first_name: Jisung
 middle_name: ""
-last_name: ""
+last_name: "Kim"
 url: "https://jisay1130.github.io"
 baseurl: "/homepage"
 lang: en
