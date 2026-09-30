@@ -1,0 +1,13 @@
+- title: "KNU Global Challenger (Deutschland)"
+  date: "July 10, 2026"
+  summary: "Fully funded research visit!"
+  highlights:
+    - "Leibniz University Hannover"
+    - "Deutscher Wetterdienst: Offenbach"
+  photos:
+    - src: "/assets/photos/with_palm_members.JPG"
+      #    alt: "Activity photo placeholder"
+      caption: "With Prof. Bjoern Maronga<br>and Dr. Micha Gryschka"
+    - src: "/assets/photos/DWD_1.jpeg"
+      #    alt: "Activity photo placeholder"
+      caption: "With Patrick Tracksdorf, Dr. Klaus Stephan and Prof. Dr. Roland Potthast"

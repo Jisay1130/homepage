@@ -1,0 +1,9 @@
+- title: "Academic activity to be added"
+  date: "2025"
+  summary: "Use this entry for one confirmed 2025 activity, such as a conference, research visit, seminar, field activity, or project milestone."
+  highlights:
+    - "Replace this text with the public-facing activity note."
+  photos:
+    - src: "/assets/photos/many-the-cat.jpg"
+      alt: "Activity photo placeholder"
+      caption: "Replace with a 2025 activity photo"
